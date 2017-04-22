@@ -1,0 +1,37 @@
+# This is the YAML config file for The ESPEasy Config Wizard
+configFile: epwconfig.yaml
+# All Files are searched relative to srcDirectory
+srcDirectory: "."
+pluginData: Plugin_sizes.txt
+pluginHeaderFile: enabled_plugins.h
+# pluginPrefixPattern: "_P|_N"
+pluginPrefixPattern: "_P"
+modifiedStyle: "-fx-background-color: mistyrose"
+unmodifiedStyle: ""
+suffix: .ino
+memLimits:
+  - name:      "ESP-8266: 1 MB"
+    cacheIRam: 9999
+    initRam:   9999
+    roRam:     9999
+    uninitRam: 1000
+    flashRom:  500000
+  - name:      "ESP-8266: 4 MB"
+    cacheIRam: 2
+    initRam:   2
+    roRam:     3
+    uninitRam: 4
+    flashRom:  5
+  - name:      "ESP-8285: 1 MB"
+    cacheIRam: 3
+    initRam:   2
+    roRam:     3
+    uninitRam: 4
+    flashRom:  5
+  - name:      "ESP-8285: 3 MB"
+    cacheIRam: 3
+    initRam:   2
+    roRam:     3
+    uninitRam: 4
+    flashRom:  5
+    
