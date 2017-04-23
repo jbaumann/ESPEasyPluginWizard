@@ -15,7 +15,7 @@ deploy:
   prerelease: true
 #  api_key: "GITHUB OAUTH TOKEN"
   file_glob: true
-  file: "${RELEASE_FILE}"
+  file: "target/*.jar"
   skip_cleanup: true
   on:
       tags: true
