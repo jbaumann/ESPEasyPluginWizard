@@ -30,6 +30,19 @@ pluginPrefixPattern: "_P"             # The pattern used to identify plugins
 modifiedStyle: "-fx-background-color: mistyrose"  # The style used to highlight changed plugin values (enabled/disabled)
 unmodifiedStyle: ""                               # The style used for unchanged plugin values
 suffix: .ino                           # The suffix that identifies source files
+memLimits:                             # Here the different memory limits for the configurations of the ESP can be defined      
+  - name:      "ESP-8266: 1 MB"
+    cacheIRam: 9999
+    initRam:   9999
+    roRam:     9999
+    uninitRam: 1000
+    flashRom:  500000
+  - name:      "ESP-8266: 4 MB"
+    cacheIRam: 2
+    initRam:   2
+    roRam:     3
+    uninitRam: 4
+    flashRom:  5
 ```
 
 ## Source Directory
