@@ -9,7 +9,7 @@ sudo: false
 
 script: mvn clean verify
 
-
+before_deploy: "pwd;ls target/*.jar"
 deploy:
   provider: releases
   prerelease: true
