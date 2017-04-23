@@ -10,7 +10,9 @@ deploy:
     secure: r+QlbxmWzFB/2iA/bUB0MFV3fnsM6x59MFlgxtZrAJRRuESJPIuDKSCwb5jTVtT0L36LBtLGrJzx0pHn2RFh5fVj4qRtMlGccfwakOB2AZo272QTeBdts/boAKF/kH2oz1ivDKjRi7zz699hL7YvvhI1JGmrs5QvWsk6cTdO5Yrknyt6k1IZy2tIhEc1grAqMQrXQvyJHxgl+eOuB+2UXJ0d+cvaYnsQep69PffyseEqJA/aczJetLgIm44CwQ3hfSR5MeLJBw0SOK0Vc+M5LbO9v/TLWd4m2aOlDxGGXwahS82Jx70S1E2U7mRDt4/yYoNM0q3AjHuQHp5+c8aXFlRw/J7GMOfQVFzoVsVOdh8Fpd1a0xuW2EKDZrzdo6v0twl9XsdHfiL25duePLFxvwSlYxsxjl/NnOAfJ3om6iV7sHAhj1rF19HENW9ezgUWYcg5NDpz9WPFUW5q4YRXBSdWVlEe70PVewzYp0GkPNkSzD6tm0RfTurV35QIBPKyZqzyWjFCpIK5cUdQFa3v3sPrIozAnfffL+n9Xwgd9QmZ9eOvKEQtlRbasDKRQ7A8nm0Gz3/TevE2T+DUbFXjCjGZv/Kj+X5/RFd1pVzCCKPMg8gCXaH2xJyYBB6IDnNq/qbEAqZag/+IOlHmeYrNPPGmGabnT45rRcloQC/MThQ=
   prerelease: true
   file_glob: true
-  file: target/*.jar epwconfig.yaml
+  file: 
+    - target/*.jar 
+    - epwconfig.yaml
   skip_cleanup: true
   on:
     tage: true
