@@ -15,5 +15,5 @@ deploy:
     - epwconfig.yaml
   skip_cleanup: true
   on:
-    tage: true
+    tags: true
     #repo: jbaumann/ESPEasyPluginWizard
