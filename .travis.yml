@@ -3,7 +3,7 @@ jdk:
 - oraclejdk8
 dist: trusty
 sudo: false
-script: mvn clean verify -Dproject.version=${TRAVIS_TAG}
+script: mvn clean verify -Dproject.version=${ ${TRAVIS_TAG}:-${TRAVIS_JOB_ID} }
 deploy:
   provider: releases
   api_key:
