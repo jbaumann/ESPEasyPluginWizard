@@ -1,6 +1,4 @@
-# ESPEasy Plugin Wizard
-
-<img src="https://travis-ci.org/jbaumann/ESPEasyPluginWizard.svg?branch=master">
+# ESPEasy Plugin Wizard <img src="https://travis-ci.org/jbaumann/ESPEasyPluginWizard.svg?branch=master">
 
 This tool generates a plugin header file for enabling and disabling plugins in ESP Easy.
 
